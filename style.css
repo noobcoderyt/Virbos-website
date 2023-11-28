@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#virboslogo {
+    height: 10%;
+    width: 10%;
+}
+
+#virbostitle {
+    font-size: 275%;
+    color: #00ff00;
+}
+
+#slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+
+.content {
+    margin-left: 15%;
+}
+
+.title {
+    color: white;
+}
+
+#btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #00ff00;
+    background-color: #00ff00;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition-delay: 100ms;
+}
+
+#btn2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00ff00;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    color: white;
+    transition-delay: 100ms;
+}
+
+#description {
+    margin-top: 4%;
+    font-size: larger;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+
+.social {
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 15%;
+}
+
+.followus {
+    margin-right: 1%;
+}
+
+.followus:hover {
+    border: 1px solid black;
+    border-radius: 100%;
+    border: none;
+    box-shadow: #00ff00 0 0 100px 1px;
+}
